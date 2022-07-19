@@ -1,0 +1,167 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: darksalmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Comfortaa", cursive;
+  width: 50%;
+  height: 80%;
+  margin-left: 15vmax;
+  padding: auto;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.product-box img {
+  margin-bottom: 3vmax;
+}
+
+.product-box h1 {
+  font-size: 40px;
+  color: slategrey;
+}
+
+.product-box p {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.product-box span {
+  font-size: 50px;
+  font-weight: bold;
+  color: slategrey;
+}
+
+.card-box {
+  background-color: slategrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Comfortaa", cursive;
+  width: 50%;
+  height: 80%;
+  margin-right: 15vmax;
+
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+}
+
+.name {
+  padding: 5px 20px 5px 50px;
+  /* display: flex;
+  flex-direction: column-reverse; */
+  text-align: end;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-top: 5px;
+  margin-bottom: 19px;
+  outline: none;
+  color: darksalmon;
+  font-size: 15px;
+  font-family: "Comfortaa", cursive;
+}
+
+.cardn {
+  padding: 5px 20px 5px 50px;
+  /* display: flex;
+  flex-direction: column-reverse; */
+  text-align: end;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-top: 5px;
+  margin-bottom: 19px;
+  outline: none;
+  color: darksalmon;
+  font-size: 15px;
+  font-family: "Comfortaa", cursive;
+}
+.expiry {
+  padding: 5px 20px 5px 50px;
+  /* display: flex;
+  flex-direction: column-reverse; */
+  text-align: end;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-top: 5px;
+  margin-bottom: 19px;
+  outline: none;
+  color: darksalmon;
+  font-size: 15px;
+  font-family: "Comfortaa", cursive;
+}
+.cvv {
+  padding: 5px 20px 5px 50px;
+  /* display: flex;
+  flex-direction: column-reverse; */
+  text-align: end;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-top: 5px;
+  margin-bottom: 19px;
+  outline: none;
+  color: darksalmon;
+  font-size: 15px;
+  font-family: "Comfortaa", cursive;
+}
+
+.card-box .btn {
+  background-color: darksalmon;
+  font-size: large;
+  outline: none;
+  margin-top: 40px;
+  color: white;
+  padding: 5px 30px 5px 30px;
+  border-radius: 40px 40px 40px 40px;
+  border: 1.5px solid;
+  font-family: "Comfortaa", cursive;
+}
+
+.card-box button:hover {
+  cursor: pointer;
+  background-color: slategrey;
+  color: white;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.we {
+  margin-top: 40px;
+  margin-left: 80%;
+  color: rgb(172, 169, 169);
+  font-family: "Comfortaa", cursive;
+  font-size: 50%;
+}
